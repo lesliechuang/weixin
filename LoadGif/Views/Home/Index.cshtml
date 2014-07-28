@@ -1,0 +1,88 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sony Mobile Communications CMS - Login</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+    <style type="text/css">
+        #bar1 {
+            position: absolute;
+            background: red;
+            height: 250px;
+            width: 400px;
+        }
+
+        #bar2 {
+            position: absolute;
+            background: green;
+            height: 250px;
+            width: 400px;
+            margin-left: 400px;
+        }
+
+        #slider {
+            position: relative;
+            cursor: pointer;
+            float: right;
+            background: blue;
+            height: 250px;
+            width: 10px;
+        }
+    </style>
+
+    <!-- scripts (jquery) -->
+    <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.8.20.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/index.js")" type="text/javascript"></script>
+</head>
+<body onmouseup="javascript:release();">
+
+    <div>
+        <img alt="" src="@Url.Content("~/Images/d1.jpg")" style="width:50px;height:50px;" />
+        <audio id="ai" src="@Url.Content("~/Music/1.mp3")" controls></audio>
+        <video id="vi" src="@Url.Content("~/Video/1.wmv")" controls width="400" height="400"></video>
+    </div>
+
+    <table>
+        <tr>
+            <td>222222222222222222222222222222</td>
+        </tr>
+        <tr>
+            <td><a href="#" style="width: 100%; display: block;">111</a></td>
+        </tr>
+    </table>
+
+    <div id="div4" style="width:400px;height:200px;border:solid #000 1px">
+        <div id="div1" style="width:50%;height:200px;float:left;background-color:yellow">
+            <div id="div3" style="width:20px;height:20px;float:right;margin-top:0;background-color:red"></div>
+        </div>
+        <div id="div2" style="width:50%;height:200px;float:left;background-color:blue"></div>
+    </div>
+
+    <div>
+        <label id="d1">1</label>
+        <label id="d2">2</label>
+        <label id="d3">2</label>
+        <label id="d4">2</label>
+    </div>
+
+    <div>
+        <div id="bar1">
+            <div id="slider" onmousedown="javascript:drag();"></div>
+        </div>
+
+        <div id="bar2"></div>
+    </div>
+
+    
+
+</body>
+</html>
+
+
+
+
